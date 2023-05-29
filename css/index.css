@@ -1,0 +1,98 @@
+
+.gradient-custom {
+    /* Plan B für alte Browsers */
+    background: #d4e873;
+    
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(73,218,254),rgba(88,199,71),rgba(212,232,115),rgb(255, 251, 25));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(73,218,254),rgba(88,199,71),rgba(212,232,115),rgb(255, 251, 25));
+  }
+
+
+  .card {
+    margin-top: 2em;
+    padding: 1.5em 0.5em 0.5em;
+    border-radius: 2em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .cards:hover {
+    box-shadow: 0 20px 40px rgba(0,0,0,0.16), 0 20px 40px rgba(0,0,0,0.33);
+  }
+
+ .body{
+    background-color: #d0e8ff;
+ }
+
+
+
+
+.show {
+    display: block !important;
+  }
+  .d-none {
+    display: none !important;
+  }
+
+
+  #dropdownMenuButton{
+    float: left;
+  }
+
+  h1{
+    font-size: 16pt;
+    font-weight: bold;
+  }
+
+
+
+div.tooltip {   
+  position: absolute;
+  padding: 7px;
+  font-size: 0.8em;
+  pointer-events: none;
+  background: #fff;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+}  
+
+.background {
+  fill: transparent;
+  pointer-events: all;
+}
+
+.commune {
+  transform-origin: center;
+}
+
+  
+.line {
+  stroke-width: 2;
+  fill: none;
+}
+
+.axis path {
+  stroke: black;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.title-text {
+  font-size: 12px;
+}
+
+
+footer{
+display: block;
+}
+
+  
+
+  

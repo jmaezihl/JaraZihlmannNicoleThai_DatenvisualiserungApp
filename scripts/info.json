@@ -1,0 +1,26 @@
+{ 
+        "Impressum": [
+     
+           {
+              "Id": "01",
+              "Autorin": "Jara Zihlmann",
+              "Email": "jara.zihlmann@students.unibe.ch",
+              "Gemeinde":"Kappel SO",
+              "Postleitzahl": "4616",
+              "Land":"CH"
+           },
+     
+           {
+            "ID": "02",
+            "Autorin": "Nicole Thai",
+            "Email": "nicole.thai@students.unibe.ch",
+            "Gemeinde": "Hägendorf SO",
+            "Postleitzahl": "4614",
+            "Land":"CH"
+         }
+     
+        ]
+
+    
+    
+}
