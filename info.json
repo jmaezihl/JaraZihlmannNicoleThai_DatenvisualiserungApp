@@ -1,0 +1,24 @@
+{ 
+        "Impressum": [
+     
+         
+        {
+         "title": "Wo befinden sich die Steueroasen im Thurgau?",
+         "description": "Diese App visaulisiert die Steuerfüsse des Kanton Thurgaus. Die Daten werden in verschiedenen Karten dargestellt. Mithilfe eines Dropdown-Menüs kann nach den Jahren gefiltert werden. Zusätzlich kann man bei den Gesamtsteuerfüsse mit einer Auswahlbox eine Kategorie wählen (juristisch, evangelisch oder katholkisch).nd Spur gefiltert werden. Zudem sind die wichtigsten Entwicklungen bzw. Veränderungen des Gemeindesteuerfusses in unterschiedlichen Koordinationssysteme erfasst",
+         "authors": [
+             {"name": "Jara Mae Zihlmann", "email": "jara.zihlmann@students.unibe.ch"},
+             {"name": "Nicole Thai", "email": "nicole.thai@students.unibe.ch"}
+         ],
+         "date": "2023-06-01",
+         "category": "finances",
+         "software_license": " ISC License"
+         }
+
+    
+    
+      ]
+   }
+
+
+
+   

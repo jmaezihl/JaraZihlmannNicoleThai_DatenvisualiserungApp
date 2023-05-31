@@ -163,7 +163,7 @@ buttonGroup.addEventListener("click", function (event) {
           currentData[gemeindeName] = gemeindefuss;
         });
   
-        // updaten der karten anhand der neuen daten
+        // updaten der Karten anhand der neuen Daten
         thurgauMap.selectAll("path")
           .attr("fill", function (d) {
             d.total = newData.get(d.properties.gemeinde_NAME) || 0;
@@ -242,7 +242,7 @@ let mouseLeave = function() {
 
 
 
-// definieren von zoomverhalten
+// definieren von Zoomverhalten
 const zoom = d3.zoom()
   .scaleExtent([1, 8])
   .on("zoom", zoomed);
@@ -267,7 +267,7 @@ function zoomed(event) {
 		// Gemeinden "zeichnen"
 		.attr("d", d3.geoPath().projection(projection))
 
-		//namen der Gemeinden holen
+		//Namen der Gemeinden holen
 		.attr("data-name", function(d) {
 			return d.properties.gemeinde_NAME
 		})
