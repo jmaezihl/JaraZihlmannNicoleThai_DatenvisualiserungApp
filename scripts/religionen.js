@@ -17,7 +17,7 @@ const svg1 = d3.select("#map"),
 	tax = "./data/sk-stat-70.csv";
 
 let centered, thurgauMap;
-let selectedYear = "2022"; // Setzte Standardjahr auf 2022
+let selectedYear = "2023"; // Setzte Standardjahr auf 2023
 
 
 const margin = {top: 10, right: 30, bottom: 30, left: 60},
